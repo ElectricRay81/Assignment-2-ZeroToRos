@@ -1,0 +1,6 @@
+<launch>
+
+    <node name= "compute_nav_cmds" pkg="ros_tutorial_assignment2" type="compute_nav_cmds.py"/>
+    <node name="move_cmd" pkg="ros_tutorial_assignment2" type="move_cmd.py"/>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtle1" respawn="false" output="screen" />
+</launch>
